@@ -1,0 +1,46 @@
+[ {
+  "account" : {
+    "accountName" : "DEFAULT",
+    "cashBalance" : 35000.0,
+    "ownedAssets" : { }
+  },
+  "name" : "DEFAULT",
+  "strategyMethods" : {
+    "OPEN" : [ {
+      "basicMethod" : {
+        "name" : "Discover::discover",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.DiscoverInput" ]
+      },
+      "parameters" : [ {
+        "name" : "DiscoverInput",
+        "market" : "NYSE",
+        "criteria" : "gainer",
+        "daysAgo" : 1
+      } ]
+    }, {
+      "basicMethod" : {
+        "name" : "Buy::buy",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.BuyInput" ]
+      },
+      "parameters" : [ {
+        "name" : "BuyInput",
+        "sharesToBuy" : 73,
+        "firstN" : 57,
+        "minimumPrice" : 45
+      } ]
+    } ],
+    "CLOSE" : [ {
+      "basicMethod" : {
+        "name" : "Sell::sell",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.sell.HoursOldSellInput" ]
+      },
+      "parameters" : [ {
+        "name" : "HoursOldSellInput",
+        "sharesToSell" : 23,
+        "hoursOld" : 2
+      } ]
+    } ]
+  },
+  "candidates" : [ ],
+  "weight" : 7
+} ]

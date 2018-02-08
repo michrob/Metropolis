@@ -1,0 +1,142 @@
+[ {
+  "account" : {
+    "accountName" : "DEFAULT",
+    "cashBalance" : 35000.0,
+    "ownedAssets" : { }
+  },
+  "name" : "DEFAULT",
+  "strategyMethods" : {
+    "OPEN" : [ {
+      "basicMethod" : {
+        "name" : "Discover::discover",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.DiscoverInput" ]
+      },
+      "parameters" : [ {
+        "name" : "DiscoverInput",
+        "market" : "NYSE",
+        "criteria" : "volume",
+        "daysAgo" : 1
+      }, {
+        "name" : "DiscoverInput",
+        "market" : "NYSE",
+        "criteria" : "gainer",
+        "daysAgo" : 3
+      }, {
+        "name" : "DiscoverInput",
+        "market" : "NASDAQ",
+        "criteria" : "volume",
+        "daysAgo" : 49
+      }, {
+        "name" : "DiscoverInput",
+        "market" : "NASDAQ",
+        "criteria" : "gainer",
+        "daysAgo" : 97
+      }, {
+        "name" : "DiscoverInput",
+        "market" : "NYSE",
+        "criteria" : "gainer",
+        "daysAgo" : 1
+      } ]
+    }, {
+      "basicMethod" : {
+        "name" : "Sell::sell",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.SellInput" ]
+      },
+      "parameters" : [ {
+        "name" : "SellInput",
+        "sharesToSell" : 18,
+        "hoursOld" : 2
+      } ]
+    }, {
+      "basicMethod" : {
+        "name" : "Buy::buy",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.BuyInput" ]
+      },
+      "parameters" : [ {
+        "name" : "BuyInput",
+        "sharesToBuy" : 39,
+        "firstN" : 71,
+        "minimumPrice" : 2
+      }, {
+        "name" : "BuyInput",
+        "sharesToBuy" : 86,
+        "firstN" : 96,
+        "minimumPrice" : 86
+      }, {
+        "name" : "BuyInput",
+        "sharesToBuy" : 8,
+        "firstN" : 31,
+        "minimumPrice" : 6
+      }, {
+        "name" : "BuyInput",
+        "sharesToBuy" : 2,
+        "firstN" : 36,
+        "minimumPrice" : 53
+      } ]
+    }, {
+      "basicMethod" : {
+        "name" : "Discover::discover",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.DiscoverInput" ]
+      },
+      "parameters" : [ {
+        "name" : "DiscoverInput",
+        "market" : "NASDAQ",
+        "criteria" : "volume",
+        "daysAgo" : 3
+      }, {
+        "name" : "DiscoverInput",
+        "market" : "NYSE",
+        "criteria" : "volume",
+        "daysAgo" : 3
+      }, {
+        "name" : "DiscoverInput",
+        "market" : "NASDAQ",
+        "criteria" : "loser",
+        "daysAgo" : 94
+      } ]
+    } ],
+    "CLOSE" : [ {
+      "basicMethod" : {
+        "name" : "Sell::sell",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.SellInput" ]
+      },
+      "parameters" : [ {
+        "name" : "SellInput",
+        "sharesToSell" : 1,
+        "hoursOld" : 1
+      }, {
+        "name" : "SellInput",
+        "sharesToSell" : 1,
+        "hoursOld" : 8
+      } ]
+    }, {
+      "basicMethod" : {
+        "name" : "Buy::buy",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.BuyInput" ]
+      },
+      "parameters" : [ {
+        "name" : "BuyInput",
+        "sharesToBuy" : 35,
+        "firstN" : 100,
+        "minimumPrice" : 21
+      } ]
+    }, {
+      "basicMethod" : {
+        "name" : "Sell::sell",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.SellInput" ]
+      },
+      "parameters" : [ {
+        "name" : "SellInput",
+        "sharesToSell" : 15,
+        "hoursOld" : 1
+      }, {
+        "name" : "SellInput",
+        "sharesToSell" : 30,
+        "hoursOld" : 2
+      } ]
+    } ]
+  },
+  "candidates" : [ ],
+  "score" : 0.0,
+  "weight" : 18
+} ]

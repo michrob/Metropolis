@@ -1,0 +1,308 @@
+{
+  "account" : {
+    "accountName" : "DEFAULT",
+    "cashBalance" : 32604.705,
+    "ownedAssets" : {
+      "NASDAQ:CKSW" : {
+        "symbol" : {
+          "ticker" : "CKSW",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1430498700000,
+        "pricePerShare" : 12.41
+      },
+      "NASDAQ:DYAX" : {
+        "symbol" : {
+          "ticker" : "DYAX",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449251100000,
+        "pricePerShare" : 37.42
+      },
+      "NASDAQ:NTLS" : {
+        "symbol" : {
+          "ticker" : "NTLS",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1439397900000,
+        "pricePerShare" : 8.99
+      },
+      "NASDAQ:SODA" : {
+        "symbol" : {
+          "ticker" : "SODA",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449596700000,
+        "pricePerShare" : 15.45
+      },
+      "NASDAQ:MAG" : {
+        "symbol" : {
+          "ticker" : "MAG",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1438101900000,
+        "pricePerShare" : 49.48
+      },
+      "NASDAQ:GAI" : {
+        "symbol" : {
+          "ticker" : "GAI",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449596700000,
+        "pricePerShare" : 7.7
+      },
+      "NASDAQ:GMCR" : {
+        "symbol" : {
+          "ticker" : "GMCR",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449596700000,
+        "pricePerShare" : 89.14
+      },
+      "NASDAQ:ULTA" : {
+        "symbol" : {
+          "ticker" : "ULTA",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449510300000,
+        "pricePerShare" : 184.64
+      },
+      "NASDAQ:HILL" : {
+        "symbol" : {
+          "ticker" : "HILL",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1440089100000,
+        "pricePerShare" : 9.68
+      },
+      "NASDAQ:HFFC" : {
+        "symbol" : {
+          "ticker" : "HFFC",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449078300000,
+        "pricePerShare" : 19.2
+      },
+      "NASDAQ:PKT" : {
+        "symbol" : {
+          "ticker" : "PKT",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1429807500000,
+        "pricePerShare" : 11.43
+      },
+      "NASDAQ:OCAT" : {
+        "symbol" : {
+          "ticker" : "OCAT",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1447263900000,
+        "pricePerShare" : 8.43
+      },
+      "NASDAQ:MRGE" : {
+        "symbol" : {
+          "ticker" : "MRGE",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1438965900000,
+        "pricePerShare" : 7.08
+      },
+      "NASDAQ:KLAC" : {
+        "symbol" : {
+          "ticker" : "KLAC",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1445532300000,
+        "pricePerShare" : 63.41
+      },
+      "NASDAQ:EDUC" : {
+        "symbol" : {
+          "ticker" : "EDUC",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449078300000,
+        "pricePerShare" : 16.35
+      },
+      "NASDAQ:XONE" : {
+        "symbol" : {
+          "ticker" : "XONE",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1448646300000,
+        "pricePerShare" : 9.15
+      },
+      "NASDAQ:PSEM" : {
+        "symbol" : {
+          "ticker" : "PSEM",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1441385100000,
+        "pricePerShare" : 16.77
+      },
+      "NASDAQ:ZSPH" : {
+        "symbol" : {
+          "ticker" : "ZSPH",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1447091100000,
+        "pricePerShare" : 89.05
+      },
+      "NASDAQ:NVSL" : {
+        "symbol" : {
+          "ticker" : "NVSL",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1433522700000,
+        "pricePerShare" : 10.67
+      },
+      "NASDAQ:SRPT" : {
+        "symbol" : {
+          "ticker" : "SRPT",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1448300700000,
+        "pricePerShare" : 35.16
+      },
+      "NASDAQ:KFX" : {
+        "symbol" : {
+          "ticker" : "KFX",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1427388300000,
+        "pricePerShare" : 10.95
+      },
+      "NASDAQ:GLPG" : {
+        "symbol" : {
+          "ticker" : "GLPG",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449683100000,
+        "pricePerShare" : 57.03
+      },
+      "NASDAQ:REMY" : {
+        "symbol" : {
+          "ticker" : "REMY",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1436892300000,
+        "pricePerShare" : 29.21
+      },
+      "NASDAQ:PLCE" : {
+        "symbol" : {
+          "ticker" : "PLCE",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1449683100000,
+        "pricePerShare" : 54.55
+      },
+      "NASDAQ:EOPN" : {
+        "symbol" : {
+          "ticker" : "EOPN",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1423244700000,
+        "pricePerShare" : 8.53
+      },
+      "NASDAQ:KYTH" : {
+        "symbol" : {
+          "ticker" : "KYTH",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1434645900000,
+        "pricePerShare" : 74.08
+      },
+      "NASDAQ:HCKT" : {
+        "symbol" : {
+          "ticker" : "HCKT",
+          "market" : "NASDAQ"
+        },
+        "shares" : 1,
+        "buyDate" : 1447350300000,
+        "pricePerShare" : 17.95
+      }
+    }
+  },
+  "name" : "DEFAULT",
+  "strategyMethods" : {
+    "OPEN" : [ {
+      "pluggable" : {
+        "name" : "Discover",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.DiscoverInput" ]
+      },
+      "parameters" : [ {
+        "name" : "DiscoverInput",
+        "market" : "NASDAQ",
+        "criteria" : "gainer",
+        "daysAgo" : 1,
+        "topN" : 5
+      } ]
+    }, {
+      "pluggable" : {
+        "name" : "Buy",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.BuyInput" ]
+      },
+      "parameters" : [ {
+        "name" : "BuyInput",
+        "sharesToBuy" : 1
+      } ]
+    } ],
+    "CLOSE" : [ {
+      "pluggable" : {
+        "name" : "Sell",
+        "validInputs" : [ "com.metropolis.stocks.strategy.pluggable.input.sell.HoursOldSellInput", "com.metropolis.stocks.strategy.pluggable.input.sell.ProfitLossSellInput" ]
+      },
+      "parameters" : [ {
+        "name" : "ProfitLossSellInput",
+        "profitThreshold" : 0.1,
+        "lossThreshold" : 0.005
+      } ]
+    } ]
+  },
+  "score" : {
+    "monthlyCashBalances" : {
+      "1" : 35000.0,
+      "2" : 35081.516,
+      "3" : 35061.72,
+      "4" : 34920.105,
+      "5" : 34867.33,
+      "6" : 34852.926,
+      "7" : 34837.99,
+      "8" : 34758.56,
+      "9" : 33762.23,
+      "10" : 33476.625,
+      "11" : 33410.566,
+      "12" : 33369.992
+    },
+    "netReturn" : -0.16616133,
+    "averageMonthlyReturn" : -0.0042925926814363765,
+    "averageMonthlyReturnStdDev" : 0.008122757844249718
+  },
+  "candidates" : [ ],
+  "weight" : 3
+}

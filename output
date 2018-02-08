@@ -1,0 +1,25 @@
+[main] INFO com.metropolis.simulator.GeneticSimulator - 
+---
+Final strategy choice:
+Strategy: BEST Account{BEST, balance 37925.63, net 2925.629, pct 0.2925629}
+OPEN -> 
+
+StrategyMethod{Discover::discover, [[market:NASDAQ, type:loser, daysAgo:24], [market:NYSE, type:volume, daysAgo:34]]} ->
+StrategyMethod{Discover::discover, [[market:NYSE, type:volume, daysAgo:1]]} ->
+StrategyMethod{Buy::buy, [[sharesToBuy:90, firstN:69]]}
+
+
+CLOSE ->
+
+StrategyMethod{Sell::sell, [[sharesToSell:5, hoursOld:96]]} -> 
+StrategyMethod{Discover::discover, [[market:NYSE, type:volume, daysAgo:51]]} -> 
+StrategyMethod{Sell::sell, [[sharesToSell:87, hoursOld:9]]} -> 
+StrategyMethod{Sell::sell, [[sharesToSell:42, hoursOld:12]]} -> 
+StrategyMethod{Buy::buy, [[sharesToBuy:2, firstN:95]]} -> 
+StrategyMethod{Discover::discover, [[market:NYSE, type:loser, daysAgo:81]]} -> 
+StrategyMethod{Discover::discover, [[market:NASDAQ, type:volume, daysAgo:98]]} -> 
+StrategyMethod{Discover::discover, [[market:NYSE, type:loser, daysAgo:1]]} -> 
+StrategyMethod{Sell::sell, [[sharesToSell:80, hoursOld:45]]}
+
+
+[main] INFO com.metropolis.simulator.GeneticSimulator - 200 iterations took 117293 milliseconds
